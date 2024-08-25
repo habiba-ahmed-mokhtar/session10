@@ -1,0 +1,98 @@
+.carousel-item {
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff;
+}
+.carousel-caption .btn {
+  color: #000;
+  background-color: #fff;
+  border: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+.content-section {
+  padding: 50px 15px;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-top: 20px;
+}
+.content-section h2 {
+  margin-bottom: 20px;
+}
+
+.month-status {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 5px;
+}
+.month-status.red {
+  background-color: #f00;
+}
+.month-status.number {
+  background-color: #000;
+}
+.gallery-images img {
+  width: 100%;
+  height: auto;
+}
+.gallery-item {
+  padding: 10px;
+}
+.gallery-caption {
+  margin-top: 15px;
+  text-align: center;
+}
+.btn-buy-tickets {
+  display: block;
+  margin: 20px auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+.btn-buy-tickets:hover {
+  background-color: #333;
+}
+.contact-section {
+  margin-top: 30px;
+}
+.contact-title {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.contact-info i {
+  margin-right: 10px;
+}
+.btn-send {
+  background-color: black;
+  color: white;
+}
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  font-size: 20px;
+  transition: color 0.3s;
+  color: grey;
+}
+.footer a:hover {
+  color: #000000;
+}
